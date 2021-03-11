@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurante</title>
+</head>
+
+<body>
+    <div id="cardapio">
+        <h1>Cardapio</h1>
+        <table border="1">
+            <tr>
+                <th colspan="4">
+                    <h2>Tabela de Preços:</h2>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h3>Principal</h3>
+                </th>
+                <th>Arroz - R$5</th>
+                <th colspan="2">Macarrão - R$6</th>
+            </tr>
+            <tr>
+                <th>
+                    <h3>Acompanhamentos</h3>
+                </th>
+                <th>Feijão - R$5</th>
+                <th colspan="2">Pure - R$6</th>
+            </tr>
+            <tr>
+                <th>
+                    <h3>Mistura</h3>
+                </th>
+                <th>Bife Acebolado - R$5</th>
+                <th>Frango - R$4</th>
+                <th>Peixe - R$6</th>
+            </tr>
+        </table><br><br>
+    </div>
+    <div id="facaSeuPedido">
+        <h2>Faça seu pedido abaixo:</h2>
+
+        Principal:<br>
+        <select name="opcoesPrincipal" id="Principal">
+            <option value="opcao1">Arroz</option>
+            <option value="opcao1">Macarrão</option>
+        </select>
+
+        <br /><br />Acompanhamento:<br />
+        <select name="opcoesAcompanhamento" id="acompanhamento">
+            <option value="opcaoAcompanhamento1">Feijão</option>
+            <option value="opcaoAcompanhamento2">Pure</option>
+        </select>
+
+        <br /><br />Mistura:<br />
+        <select name="opcoesMistura" id="mistura">
+            <option value="opcaoMistura1">Bife Acebolado</option>
+            <option value="opcaoMistura2">Frango</option>
+            <option value="opcaoMistura3">Peixe</option>
+        </select><br><br>
+
+        <button onclick="finalizarPedido()">Finalizar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

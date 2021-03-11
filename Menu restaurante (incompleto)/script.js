@@ -1,0 +1,5 @@
+function finalizarPedido(){
+
+}
+//FAZER A FUNCAO PARA QUE PEGUE OS VALORES DO SELECT
+//SOMAR VALOREs

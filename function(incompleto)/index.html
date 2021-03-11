@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Resultado de valores</title>
+        <meta charset="utf-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="somar.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <section>
+            <div class="centro">
+                Escolha o tipo de Operação:
+                <select class="operacao"name="operacao">
+                    <option value="selecione">selecione..</option>
+                    <option value="somar">Somar</option>
+                    <option value="subtrair">Subtrair</option>
+                    <option value="multiplicar">Multiplicar</option>
+                </select><br><br>
+
+                Primeiro Valor:
+                <input class="num1" type="number"><br><br>
+                Segundo Valor:
+                <input class="num2" type="number"><br><br>
+                
+                <button onclick="clicar()">Resultado</button> 
+                <button onclick="resetar()">Resetar</button>
+
+                <p class="resultado"></p>
+
+            </div>
+        </section>
+    </body>
+</html>
